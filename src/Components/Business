@@ -1,0 +1,42 @@
+<Route path="/business"><News pageSize={5} country="in" category=""</Route>
+<Route path="/entertainment"><News pageSize={5} country="in" category=""</Route>
+<Route path="/general"><News pageSize={5} country="in" category=""</Route>
+<Route path="/health"><News pageSize={5} country="in" category=""</Route>
+<Route path="/science"><News pageSize={5} country="in" category=""</Route>
+<Route path="/sports"><News pageSize={5} country="in" category=""</Route>
+<Route path="/technology"><News pageSize={5} country="in" category=""</Route>
+
+
+
+    ////old
+    <Route exact path="/"><News pageSize={5} country="in" category="general" /></Route>
+    <Route exact path="/business"><News pageSize={5} country="in" category="business"/></Route>
+    <Route exact path="/entertainment"><News pageSize={5} country="in" category="entertainment" /></Route>
+    <Route exact path="/general"><News pageSize={5} country="in" category="general" /></Route>
+    <Route exact path="/health"><News pageSize={5} country="in" category="health" /></Route>
+    <Route exact path="/science"><News pageSize={5} country="in" category="science" /></Route>
+    <Route exact path="/sports"><News pageSize={5} country="in" category="sports" /></Route>
+    <Route exact path="/technology"><News pageSize={5} country="in" category="technology" /></Route>
+
+
+    // newwww
+     <Route exact path="/" element={<general />} News pageSize={5} country="in" category="general" />
+    <Route exact path="/bussiness" element={<bussiness />} News pageSize={5} country="in" category="bussiness" />
+    <Route exact path="/entertainment" element={<entertainment />} News pageSize={5} country="in" category="entertainment" />
+    <Route exact path="/health" element={<health />} News pageSize={5} country="in" category="health" />
+    <Route exact path="/science" element={<science />} News pageSize={5} country="in" category="science" />
+    <Route exact path="/sports" element={<sports />} News pageSize={5} country="in" category="sports" />
+    <Route exact path="/technology" element={<technology />} News pageSize={5} country="in" category="technology" />
+
+
+    //chatgpt
+    <Route path="/" element={<News pageSize={this.pageSize} country="in" category="general" />} />
+          <Route path="/business" element={<News pageSize={this.pageSize} country="in" category="business" />} />
+          <Route path="/entertainment" element={<News pageSize={this.pageSize} country="in" category="entertainment" />} />
+          <Route path="/general" element={<News pageSize={this.pageSize} country="in" category="general" />} />
+          <Route path="/health" element={<News pageSize={this.pageSize} country="in" category="health" />} />
+          <Route path="/science" element={<News pageSize={this.pageSize} country="in" category="science" />} />
+          <Route path="/sports" element={<News pageSize={this.pageSize} country="in" category="sports" />} />
+          <Route path="/technology" element={<News pageSize={this.pageSize} country="in" category="technology" />} />
+
+          
